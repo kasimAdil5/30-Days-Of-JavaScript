@@ -15,6 +15,7 @@
   <div>
 
 🇬🇧 [English](../readMe.md)
+AR [Arabic](../Arabic/readMe.md)
 🇪🇸 [Spanish](./readme.md)
 🇷🇺 [Russian](../RU/README.md)
 

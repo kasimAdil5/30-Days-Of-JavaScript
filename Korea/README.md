@@ -34,6 +34,7 @@
 | 30    |                                [최종 프로젝트](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                 |
 
 🇬🇧 [English](../readMe.md)
+AR [Arabic](../Arabic/readMe.md)
 🇪🇸 [Spanish](../Spanish/readme.md)
 🇷🇺 [Russian](../RU/README.md)
 

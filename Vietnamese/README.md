@@ -58,6 +58,7 @@
 <div>
 
 🇬🇧 [Tiếng Anh](./readMe.md)
+AR [Arabic](../Arabic/readMe.md)
 🇪🇸 [Tiếng Tây Ban Nha](./Spanish/readme.md)
 🇷🇺 [Tiếng Nga](./RU/README.md)
 KR [Tiếng Hàn](./Korea/README.md)
