@@ -86,7 +86,7 @@ AR [Arabic](readMe.md) &nbsp;
 		- [المتصفح](#browser)
 			- [تثبيت جوجل كروم](#installing-google-chrome)
 			- [فتح وحدة تحكم جوجل كروم](#opening-google-chrome-console)
-			- [كتابة التعليمات البرمجية على وحدة تحكم المتصفح](#writing-code-on-browser-console)
+			- [كتابة التعليمات البرمجية على وحدة تحكم المتصفح](#writing-code-on-browser-console) <br>
 				- [Console.log](#consolelog)
 				- [Console.log مع وسيطات متعددة](#consolelog-with-multiple-arguments)
 				- [التعليقات](#comments)
