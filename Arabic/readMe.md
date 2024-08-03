@@ -117,51 +117,50 @@ AR [Arabic](readMe.md) &nbsp;
 
 **تهانينا الحارة** على قرار المشاركة في تحدي برمجة JavaScript لمدة 30 يومًا. في هذا التحدي، سوف تتعلم كل ما تحتاجه لتكون مبرمج جافا سكريبت، وبشكل عام، مفهوم البرمجة بالكامل. في نهاية التحدي، ستحصل على شهادة إكمال تحدي البرمجة 30DaysOfJavaScript. في حال كنت بحاجة إلى مساعدة أو إذا كنت ترغب في مساعدة الآخرين يمكنك الانضمام إلى [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
+**30 يومًا من JavaScript** التحدي هو دليل لمطوري جافا سكريبت المبتدئين والمتقدمين على حد سواء. مرحبًا بك في JavaScript. جافا سكريبت هي لغة الويب. أنا أستمتع باستخدام وتعليم الجافاسكريبت وأتمنى أن تستمتع أنت أيضًا.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**,  **_machine learning_** and **_AI_**.
+في هذا التحدي خطوة بخطوة، سوف تتعلم لغة JavaScript، وهي لغة البرمجة الأكثر شهرة في تاريخ البشرية.
+يتم استخدام JavaScript **_لإضافة تفاعلية إلى مواقع الويب، وتطوير تطبيقات الجوال، وتطبيقات سطح المكتب، والألعاب_** وفي الوقت الحاضر يمكن استخدام JavaScript لـ **البرمجة من جانب الخادم**,  **_التعلم الآلي_** and **_الذكاء الاصطناعي_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for last ten years and is the most used programming language on
+**_جافا سكريبت (JS)_** زادت شعبيتها في السنوات الأخيرة وأصبحت لغة البرمجة الرائدة على مدار السنوات العشر الماضية وهي لغة البرمجة الأكثر استخدامًا على
 GitHub.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+هذا التحدي سهل القراءة، ومكتوب باللغة الإنجليزية العامية، ومشوق ومحفز وفي نفس الوقت يتطلب الكثير من الجهد. تحتاج إلى تخصيص الكثير من الوقت لإنهاء هذا التحدي. إذا كنت من المتعلمين البصريين، فقد تحصل على درس الفيديو على <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> قناة يوتيوب. اشترك في القناة وعلق واطرح أسئلة على مقاطع الفيديو على يوتيوب وكن مبادرًا، سيلاحظك المؤلف في النهاية. 
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
+يحب المؤلف أن يسمع رأيك حول التحدي، شارك المؤلف بالتعبير عن أفكارك حول تحدي 30DaysOfJavaScript. يمكنك ترك شهادتك على هذا [link](https://testimonial-vdzd.onrender.com//)
 
-## Requirements
+## المتطلبات
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+لا يلزم معرفة مسبقة بالبرمجة لمتابعة هذا التحدي. ما عليك سوى:
 
-1. Motivation
-2. A computer
-3. Internet
-4. A browser
-5. A code editor
+1. الدافع
+2. حاسوب
+3. الانترنت
+4. متصفح
+5. محرر الأكواد
 
-## Setup
+## تجهيز
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+أعتقد أن لديك الدافع والرغبة القوية في أن تكون مطورًا وحاسوبًا وإنترنت. إذا كان لديك كل ذلك، فلديك كل شيء للبدء.
 
-### Install Node.js
+### تثبيت Node.js
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+قد لا تحتاج إلى Node.js الآن ولكنك قد تحتاجه في وقت لاحق. تثبيت [node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
-After downloading double click and install
+بعد التنزيل انقر نقرًا مزدوجًا وقم بالتثبيت
 
 ![Install node](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+يمكننا التحقق من تثبيت العقدة على جهازنا المحلي عن طريق فتح محطة الجهاز أو موجه الأوامر.
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6, by the time you use this material you may have a higher Node.js version.
+عند إنشاء هذا البرنامج التعليمي كنت أستخدم إصدار Node 12.14.0، ولكن الآن الإصدار الموصى به من Node.js للتنزيل هو v14.17.6، وبحلول الوقت الذي تستخدم فيه هذه المادة قد يكون لديك إصدار Node.js أعلى.
 
 ### Browser
 
