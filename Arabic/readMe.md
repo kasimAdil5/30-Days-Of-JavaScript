@@ -56,16 +56,16 @@
 
 <div>
 
-🇬🇧 [English](../readMe.md)
-AR [Arabic](readMe.md)
-🇪🇸 [Spanish](../Spanish/readme.md)
-🇮🇹 [Italian](../Italian/readMe.md)
-🇷🇺 [Russian](../RU/README.md)
-🇹🇷 [Turkish](../Turkish/readMe.md)
-🇦🇿 [Azerbaijan](../Azerbaijani/readMe.md)
-🇰🇷 [Korean](../Korea/README.md)
-🇻🇳 [Vietnamese](../Vietnamese/README.md)
-🇵🇱 [Polish](../Polish/readMe.md)
+🇬🇧 [English](../readMe.md) &nbsp;
+AR [Arabic](readMe.md) &nbsp;
+🇪🇸 [Spanish](../Spanish/readme.md) &nbsp;
+🇮🇹 [Italian](../Italian/readMe.md) &nbsp;
+🇷🇺 [Russian](../RU/README.md) &nbsp;
+🇹🇷 [Turkish](../Turkish/readMe.md) &nbsp;
+🇦🇿 [Azerbaijan](../Azerbaijani/readMe.md) &nbsp;
+🇰🇷 [Korean](../Korea/README.md) &nbsp;
+🇻🇳 [Vietnamese](../Vietnamese/README.md) &nbsp;
+🇵🇱 [Polish](../Polish/readMe.md) &nbsp;
 🇧🇷 [Portuguese](../Portuguese/readMe.md)
 
 </div>
