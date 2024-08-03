@@ -81,7 +81,7 @@ AR [Arabic](readMe.md) &nbsp;
 - [📔 يوم 1](#-day-1)
 	- [المقدمة](#introduction)
 	- [المتطلبات](#requirements)
-	- [Setup](#setup)
+	- [تجهيز](#setup)
 		- [تثبيت Node.js](#install-nodejs)
 		- [المتصفح](#browser)
 			- [تثبيت جوجل كروم](#installing-google-chrome)
