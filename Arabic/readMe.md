@@ -32,9 +32,9 @@
 | 28    |                          [Mini Project: Leaderboard-مشروع صغير: لوحة المتصدرين](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
 | 29    |             [Mini Project: Animating characters-مشروع صغير: تحريك الشخصيات](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
 | 30    |                                     [Final Projects-المشاريع النهائية](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
-
+<br>
 🧡🧡🧡 برمجة سعيدة 🧡🧡🧡
-
+<br>
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
