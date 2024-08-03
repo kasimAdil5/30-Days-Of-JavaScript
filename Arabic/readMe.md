@@ -13,27 +13,27 @@
 | 09    |                             [Higher Order Functions-الأشياء ذات الرتب العليا](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                              |
 | 10    |                                           [Sets and Maps-المجموعات والخرائط](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                           |
 | 11    |                      [Destructuring and Spreading-التدمير والانتشار](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
-| 12    |                                  [Regular Expressions-](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
-| 13    |                             [Console Object Methods-](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Error Handling-](./14_Day_Error_handling/14_day_error_handling.md)                                          |
-| 15    |                                                    [Classes-](./15_Day_Classes/15_day_classes.md)                                                    |
-| 16    |                                                        [JSON-](./16_Day_JSON/16_day_json.md)                                                         |
-| 17    |                                            [Web Storages-](./17_Day_Web_storages/17_day_web_storages.md)                                             |
-| 18    |                                                  [Promises-](./18_Day_Promises/18_day_promises.md)                                                   |
-| 19    |                                                   [Closure-](./19_Day_Closures/19_day_closures.md)                                                   |
-| 20    |                                  [Writing Clean Code-](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
-| 21    |                                                          [DOM-](./21_Day_DOM/21_day_dom.md)                                                          |
-| 22    |                            [Manipulating DOM Object-](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
-| 23    |                                        [Event Listeners-](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
-| 24    |                             [Mini Project: Solar System-](./24_Day_Project_solar_system/24_day_project_solar_system.md)                              |
-| 25    | [Mini Project: World Countries Data Visualization 1-](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md) |
-| 26    | [Mini Project: World Countries Data Visualization 2-](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
-| 27    |                             [Mini Project: Portfolio-](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                             |
-| 28    |                          [Mini Project: Leaderboard-](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
-| 29    |             [Mini Project: Animating characters-](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
-| 30    |                                     [Final Projects-](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
+| 12    |                                  [Regular Expressions-التعبيرات العادية](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
+| 13    |                             [Console Object Methods-طرق كائنات وحدة التحكم](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
+| 14    |                                         [Error Handling-معالجة الأخطاء](./14_Day_Error_handling/14_day_error_handling.md)                                          |
+| 15    |                                                    [Classes-الفصول](./15_Day_Classes/15_day_classes.md)                                                    |
+| 16    |                                                        [JSON-جسون](./16_Day_JSON/16_day_json.md)                                                         |
+| 17    |                                            [Web Storages-مخازن الويب](./17_Day_Web_storages/17_day_web_storages.md)                                             |
+| 18    |                                                  [Promises-الوعود](./18_Day_Promises/18_day_promises.md)                                                   |
+| 19    |                                                   [Closure-الإغلاق](./19_Day_Closures/19_day_closures.md)                                                   |
+| 20    |                                  [Writing Clean Code-كتابة كود نظيف](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
+| 21    |                                                          [DOM-نموذج كائن المستند](./21_Day_DOM/21_day_dom.md)                                                          |
+| 22    |                            [Manipulating DOM Object-معالجة نموذج كائن المستند](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
+| 23    |                                        [Event Listeners-مستمعو الأحداث](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
+| 24    |                             [Mini Project: Solar System-مشروع صغير: النظام الشمسي](./24_Day_Project_solar_system/24_day_project_solar_system.md)                              |
+| 25    | [Mini Project: World Countries Data Visualization 1-مشروع صغير: تصور بيانات دول العالم 1](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md) |
+| 26    | [Mini Project: World Countries Data Visualization 2-مشروع صغير: تصور بيانات دول العالم 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
+| 27    |                             [Mini Project: Portfolio-مشروع صغير: بورتفوليو](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                             |
+| 28    |                          [Mini Project: Leaderboard-مشروع صغير: لوحة المتصدرين](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
+| 29    |             [Mini Project: Animating characters-مشروع صغير: تحريك الشخصيات](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
+| 30    |                                     [Final Projects-المشاريع النهائية](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
 
-🧡🧡🧡 HAPPY CODING 🧡🧡🧡
+🧡🧡🧡 برمجة سعيدة 🧡🧡🧡
 
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
