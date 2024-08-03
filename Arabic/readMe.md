@@ -34,7 +34,7 @@
 | 30    |                                     [Final Projects-المشاريع النهائية](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
 <br>
 🧡🧡🧡 برمجة سعيدة 🧡🧡🧡
-<br>
+<br><br>
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
