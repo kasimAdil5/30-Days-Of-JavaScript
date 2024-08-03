@@ -86,7 +86,7 @@ AR [Arabic](readMe.md) &nbsp;
 		- [المتصفح](#browser)
 			- [تثبيت جوجل كروم](#installing-google-chrome)
 			- [فتح وحدة تحكم جوجل كروم](#opening-google-chrome-console)
-			- [كتابة التعليمات البرمجية على وحدة تحكم المتصفح](#writing-code-on-browser-console) <br>
+			- [كتابة التعليمات البرمجية على وحدة تحكم المتصفح](#writing-code-on-browser-console)
 				- [Console.log](#consolelog)
 				- [Console.log مع وسيطات متعددة](#consolelog-with-multiple-arguments)
 				- [التعليقات](#comments)
@@ -111,11 +111,11 @@ AR [Arabic](readMe.md) &nbsp;
 	- [المتغيرات](#variables)
 - [💻 اليوم 1: التمارين](#-day-1-exercises)
 
-# 📔 Day 1
+# 📔 يوم 1
 
-## Introduction
+## المقدمة
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge, you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge,  you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
+**تهانينا الحارة** على قرار المشاركة في تحدي برمجة JavaScript لمدة 30 يومًا. في هذا التحدي، سوف تتعلم كل ما تحتاجه لتكون مبرمج جافا سكريبت، وبشكل عام، مفهوم البرمجة بالكامل. في نهاية التحدي، ستحصل على شهادة إكمال تحدي البرمجة 30DaysOfJavaScript. في حال كنت بحاجة إلى مساعدة أو إذا كنت ترغب في مساعدة الآخرين يمكنك الانضمام إلى [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
 
