@@ -36,7 +36,7 @@
 🧡🧡🧡 برمجة سعيدة 🧡🧡🧡
 <br><br>
 <div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<small>Support the-ادعم <strong>author-مؤلف</strong> to create more educational materials-لإنشاء المزيد من المواد التعليمية</small> <br />  
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
