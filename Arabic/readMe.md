@@ -559,7 +559,9 @@ Multiline commenting:
 
 المتغيرات عبارة عن حاويات للبيانات. تُستخدم المتغيرات لتخزين البيانات في موقع ذاكرة. عند إعلان متغير، يتم حجز موقع ذاكرة. عند تعيين متغير لقيمة (بيانات)، سيتم ملء مساحة الذاكرة بهذه البيانات. لإعلان متغير، نستخدم الكلمات الأساسية _var_ أو _let_ أو _const_.
 
+
 بالنسبة للمتغير الذي يتغير في وقت مختلف، نستخدم _let_. إذا لم تتغير البيانات على الإطلاق، نستخدم _const_. على سبيل المثال، لا يتغير PI واسم الدولة والجاذبية، ويمكننا استخدام _const_. لن نستخدم var في هذا التحدي ولا أوصيك باستخدامه. إنها طريقة معرضة للخطأ لإعلان المتغيرات ولديها الكثير من التسريبات. سنتحدث أكثر عن var وlet وconst بالتفصيل في أقسام أخرى (النطاق). في الوقت الحالي، الشرح أعلاه كافٍ.
+
 
 يجب أن يتبع اسم متغير JavaScript الصحيح القواعد التالية:
 
@@ -567,6 +569,7 @@ Multiline commenting:
 - لا يسمح اسم متغير JavaScript بالأحرف الخاصة باستثناء علامة الدولار والشرطة السفلية.
 - يتبع اسم متغير JavaScript قاعدة camelCase.
 - لا ينبغي أن يحتوي اسم متغير JavaScript على مسافات بين الكلمات.
+
 
 فيما يلي أمثلة على متغيرات JavaScript الصالحة.
 
@@ -592,9 +595,11 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+المتغيران الأول والثاني في القائمة يتبعان اتفاقية camelCase للإعلان في JavaScript. في هذه المادة، سنستخدم متغيرات camelCase (camelWithOneHump). نستخدم CamelCase (CamelWithTwoHump) لإعلان الفئات، وسنناقش الفئات والكائنات في قسم آخر.
 
-Example of invalid variables:
+note: يعتبر CamelCase أسلوب تسمية شائعاً في البرمجة، حيث تبدأ كل كلمة في الكلمة المركبة بحرف كبير دون وجود مسافات أو علامات ترقيم تفصل بينها. يُستخدم هذا الأسلوب بشكل شائع لتحسين قابلية القراءة ولتمييز الكلمات الفردية داخل المعرفات، مثل أسماء المتغيرات، وأسماء الدوال، وأسماء الفئات. على سبيل المثال، بدلاً من كتابة اسم المتغير كـ my_variable_name أو myvariablename، يُكتب كـ myVariableName. هذا يجعل الكود أكثر قابلية للقراءة، خاصة في اللغات التي تكون فيها قابلية القراءة والصيانة أمراً حاسماً. يمكن تقسيم CamelCase إلى نوعين: UpperCamelCase (أو PascalCase)، حيث يتم أيضاً كتابة الحرف الأول من الكلمة الأولى بحرف كبير (مثل MyVariableName)، وlowerCamelCase، حيث يتم كتابة الحرف الأول من الكلمة الأولى بحرف صغير، والكلمات اللاحقة تبدأ بحروف كبيرة (مثل myVariableName). يعتبر هذا الأسلوب شائعاً بشكل خاص في لغات مثل JavaScript وJava وC#.
+
+مثال على المتغيرات غير الصالحة:
 
 ```js
   first-name
@@ -602,16 +607,16 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+دعنا نعلن عن متغيرات بأنواع بيانات مختلفة. لإعلان متغير، نحتاج إلى استخدام الكلمة المفتاحية _let_ أو _const_ قبل اسم المتغير. بعد اسم المتغير، نكتب علامة يساوي (عامل التعيين)، وقيمة (البيانات المخصصة).
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+nameOfVriable هو الاسم الذي يخزن بيانات مختلفة للقيمة. راجع أدناه للحصول على أمثلة تفصيلية.
 
-**Examples of declared variables**
+**أمثلة على المتغيرات المعلنة**
 
 ```js
 // Declaring different variables of different data types
@@ -630,7 +635,7 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declaring variables with number values
+// إعلان المتغيرات بقيم عددية
 let age = 100 // age in years
 const gravity = 9.81 // earth gravity  in m/s2
 const boilingPoint = 100 // water boiling point, temperature in °C
@@ -643,7 +648,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// يمكن أيضًا إعلان المتغيرات في سطر واحد مفصول بفاصلة، ومع ذلك أوصي باستخدام سطر منفصل لجعل الكود أكثر قابلية للقراءة
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -652,32 +657,31 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+عندما تقوم بتشغيل ملف index.html في المجلد 01-Day، يجب أن تحصل على هذا:
 
 ![Day one](./images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscle.
+🌕 أنت مدهش! لقد أكملت للتو تحدي اليوم الأول وأنت في طريقك إلى العظمة. الآن قم ببعض التمارين لعقلك وعضلاتك.
 
-# 💻 Day 1: Exercises
+# 💻 Day 1: تمارين
 
-1. Write a single line comment which says, _comments can make code readable_
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_
-3. Write a multiline comment which says, _comments can make code readable, easy to reuse_
-   _and informative_
+1. اكتب تعليقًا من سطر واحد يقول، "يمكن للتعليقات أن تجعل الكود قابلاً للقراءة"
+2. اكتب تعليقًا آخر يقول، مرحبًا بك في 30 يومًا من JavaScript
+3. اكتب تعليقًا متعدد الأسطر يقول إن التعليقات يمكن أن تجعل الكود قابلاً للقراءة وسهل إعادة الاستخدام وغنيًا بالمعلومات
 
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable
-6. Declare four variables without assigning values
-7. Declare four variables with assigned values
-8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-9. Declare variables to store your first name, last name, marital status, country and age in a single line
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+4. إنشاء ملف variable.js وإعلان المتغيرات وتعيين أنواع البيانات النصية والمنطقية وغير المحددة والفارغة
+5. قم بإنشاء ملف datatypes.js واستخدم عامل JavaScript **_typeof_** للتحقق من أنواع البيانات المختلفة. تحقق من نوع بيانات كل متغير
+6. إعلان أربعة متغيرات دون تعيين قيم
+7. إعلان أربعة متغيرات بالقيم المخصصة لها
+8. أعلن عن متغيرات لتخزين اسمك الأول واسم عائلتك والحالة الاجتماعية والبلد والعمر في أسطر متعددة
+9. أعلن عن متغيرات لتخزين اسمك الأول واسم عائلتك والحالة الاجتماعية والبلد والعمر في سطر واحد
+10. أعلن عن متغيرين _myAge_ و _yourAge_ وقم بتعيين القيم الأولية لهما وقم بتسجيلهما في وحدة التحكم في المتصفح.
 
 ```sh
 I am 25 years old.
 You are 30 years old.
 ```
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 تهانينا ! 🎉
 
 [Day 2 >>](./02_Day_Data_types/02_day_data_types.md)
