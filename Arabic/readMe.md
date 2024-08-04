@@ -335,7 +335,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+قم بإنشاء مجلد مشروع على سطح المكتب أو في أي مكان، وأطلق عليه اسم 30DaysOfJS وقم بإنشاء ملف **_`index.html`_** في مجلد المشروع. ثم قم بلصق الكود التالي وافتحه في متصفح، على سبيل المثال [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -349,12 +349,12 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+الآن، لقد كتبت للتو أول نص برمجي مضمن. يمكننا إنشاء رسالة تنبيه منبثقة باستخدام الدالة المضمنة _`alert()`_.
 
 ### Internal Script
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+يمكن كتابة النص الداخلي في _`head`_ أو _`body`_، ولكن من الأفضل وضعه في body HTML.
+أولاً، دعنا نكتب في جزء head من الصفحة.
 
 ```html
 <!DOCTYPE html>
@@ -369,7 +369,7 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+هذه هي الطريقة التي نكتب بها البرنامج النصي الداخلي في أغلب الأحيان. يعد كتابة كود JavaScript في قسم النص الأساسي هو الخيار الأكثر تفضيلاً. افتح وحدة تحكم المتصفح لمشاهدة الناتج من `console.log()`.
 
 ```html
 <!DOCTYPE html>
@@ -386,20 +386,20 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+افتح وحدة التحكم في المتصفح لرؤية الناتج من `console.log()`.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
 ### External Script
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+على غرار النص الداخلي، يمكن أن يكون رابط النص الخارجي في الرأس أو النص الأساسي، ولكن من الأفضل وضعه في النص الأساسي.
+أولاً، يجب أن ننشئ ملف JavaScript خارجيًا بامتداد .js. جميع الملفات التي تنتهي بامتداد .js هي ملفات JavaScript. قم بإنشاء ملف باسم introduction.js داخل دليل المشروع الخاص بك واكتب الكود التالي وقم بربط ملف .js هذا في أسفل النص الأساسي.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+النصوص الخارجية في _head_:
 
 ```html
 <!DOCTYPE html>
@@ -412,7 +412,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+البرامج النصية الخارجية في _body_:
 
 ```html
 <!DOCTYPE html>
@@ -428,12 +428,12 @@ External scripts in the _body_:
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+افتح وحدة التحكم في المتصفح لرؤية مخرجات `console.log()`.
 
 ### Multiple External Scripts
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+يمكننا أيضًا ربط ملفات JavaScript خارجية متعددة بصفحة ويب.
+قم بإنشاء ملف `helloworld.js` داخل مجلد 30DaysOfJS واكتب الكود التالي.
 
 ```js
 console.log('Hello, World!')
@@ -452,13 +452,13 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_يجب أن يكون ملف main.js الخاص بك أسفل جميع البرامج النصية الأخرى. من المهم جدًا أن تتذكر هذا.
 
 ![Multiple Script](./images/multiple_script.png)
 
-## Introduction to Data types
+## مقدمة عن أنواع البيانات
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+في جافا سكريبت وكذلك لغات البرمجة الأخرى، هناك أنواع مختلفة من أنواع البيانات. فيما يلي أنواع بيانات جافا سكريبت البدائية: _سلسلسلة، رقم، رقم، منطقية، غير معرّفة، لاغية_، و _رمز_.: _String, Number, Boolean, undefined, Null_, and _Symbol_.
 
 ### Numbers
 
