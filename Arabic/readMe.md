@@ -298,7 +298,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 #### تثبيت Visual Studio Code
 
-يعد Visual Studio Code محرر نصوص مفتوح المصدر شائعًا للغاية. أوصي بتنزيل Visual Studio Code (https://code.visualstudio.com/)[Visual Studio Code]، ولكن إذا كنت تفضل استخدام محررات أخرى، فلا تتردد في متابعة ما لديك.
+يعد Visual Studio Code محرر نصوص مفتوح المصدر شائعًا للغاية. أوصي بتنزيل [Visual Studio Code](https://code.visualstudio.com/)، ولكن إذا كنت تفضل استخدام محررات أخرى، فلا تتردد في متابعة ما لديك.
 
 ![Vscode](images/vscode.png)
 
