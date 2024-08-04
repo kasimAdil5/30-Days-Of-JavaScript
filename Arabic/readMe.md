@@ -162,23 +162,23 @@ v12.14.0
 
 عند إنشاء هذا البرنامج التعليمي كنت أستخدم إصدار Node 12.14.0، ولكن الآن الإصدار الموصى به من Node.js للتنزيل هو v14.17.6، وبحلول الوقت الذي تستخدم فيه هذه المادة قد يكون لديك إصدار Node.js أعلى.
 
-### Browser
+### المتصفح
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+هناك العديد من المتصفحات المتاحة. ومع ذلك، أوصي بشدة باستخدام Google Chrome.
 
-#### Installing Google Chrome
+#### تثبيت Google Chrome
 
-Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+قم بتثبيت [Google Chrome](https://www.google.com/chrome/) إذا لم يكن لديك متصفح بعد. يمكننا كتابة كود JavaScript صغير على وحدة تحكم المتصفح، لكننا لا نستخدم وحدة تحكم المتصفح لتطوير التطبيقات.
 
 ![Google Chrome](images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### فتح وحدة تحكم Google Chrome
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+يمكنك فتح وحدة تحكم جوجل كروم إما بالنقر على ثلاث نقاط في الزاوية العلوية اليمنى من المتصفح، أو اختيار _المزيد من الأدوات -> أدوات المطور_ أو باستخدام اختصار لوحة المفاتيح. أفضل استخدام الاختصارات.
 
 ![Opening chrome](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+لفتح وحدة تحكم Chrome باستخدام اختصار لوحة المفاتيح.
 
 ```sh
 Mac
@@ -190,14 +190,14 @@ Ctl+Shift+J
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+بعد أن تفتح وحدة تحكم Google Chrome، حاول استكشاف الأزرار المحددة. سنقضي معظم الوقت في وحدة التحكم. وحدة التحكم هي المكان الذي تذهب إليه شيفرة JavaScript الخاصة بك. يقوم محرك Google Console V8 بتحويل شيفرة جافا سكريبت الخاصة بك إلى شيفرة آلية.
+دعنا نكتب شيفرة JavaScript على وحدة تحكم Google Chrome:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### كتابة التعليمات البرمجية على وحدة تحكم المتصفح
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+يمكننا كتابة أي كود JavaScript على وحدة تحكم Google أو أي وحدة تحكم في المتصفح. ومع ذلك، في هذا التحدي، نركز فقط على وحدة تحكم Google Chrome. افتح وحدة التحكم باستخدام:
 
 ```sh
 Mac
@@ -275,11 +275,11 @@ console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### الرياضيات
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+الآن، دعنا نتدرب على كتابة أكواد JavaScript باستخدام _`console.log()`_ على وحدة تحكم Google Chrome لأنواع البيانات الرقمية.
+بالإضافة إلى النص، يمكننا أيضًا إجراء حسابات رياضية باستخدام JavaScript. دعنا نجري الحسابات البسيطة التالية.
+من الممكن كتابة أكواد JavaScript على وحدة تحكم Google Chrome مباشرةً بدون وظيفة **_`console.log()`_**. ومع ذلك، فهي مدرجة في هذه المقدمة لأن معظم هذا التحدي سيتم في محرر نصوص حيث يكون استخدام الوظيفة إلزاميًا. يمكنك اللعب مباشرةً بالتعليمات الموجودة على وحدة التحكم.
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -292,13 +292,13 @@ console.log(3 % 2) // Modulus - finding remainder
 console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### محرر الكود
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+يمكننا كتابة أكوادنا على وحدة تحكم المتصفح، ولكن لن يكون ذلك لمشاريع أكبر. في بيئة العمل الحقيقية، يستخدم المطورون محررات أكواد مختلفة لكتابة أكوادهم. في تحدي JavaScript الذي يستمر 30 يومًا، سنستخدم Visual Studio Code.
 
-#### Installing Visual Studio Code
+#### تثبيت Visual Studio Code
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+يعد [Visual Studio Code] محرر نصوص مفتوح المصدر شائعًا للغاية. أوصي بتنزيل Visual Studio Code (https://code.visualstudio.com/)، ولكن إذا كنت تفضل استخدام محررات أخرى، فلا تتردد في متابعة ما لديك.
 
 ![Vscode](images/vscode.png)
 
