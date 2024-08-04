@@ -302,11 +302,11 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+إذا قمت بتثبيت Visual Studio Code، فلنبدأ في استخدامه.
 
-#### How to Use Visual Studio Code
+#### كيفية استخدام Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+افتح Visual Studio Code بالنقر المزدوج على أيقونته. عند فتحه، ستحصل على هذا النوع من الواجهة. حاول التفاعل مع الأيقونات المسمّاة.
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -322,16 +322,16 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ![coding running](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## إضافة JavaScript إلى صفحة الويب
 
-JavaScript can be added to a web page in three different ways:
+يمكن إضافة JavaScript إلى صفحة الويب بثلاث طرق مختلفة:
 
 - **_Inline script_**
 - **_Internal script_**
 - **_External script_**
 - **_Multiple External scripts_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+تُظهر الأقسام التالية طرقًا مختلفة لإضافة كود JavaScript إلى صفحتك على الويب.
 
 ### Inline Script
 
