@@ -462,18 +462,18 @@ _يجب أن يكون ملف main.js الخاص بك أسفل جميع البر�
 
 ### Numbers
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Integers: الأعداد الصحيحة (الأعداد السالبة والصفر والموجبة)
+  مثال:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
-  ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+- Float-point numbers: عدد عشري
+مثال
+... -3.5، -2.25، -1.0، 0.0، 1.1، 2.2، 3.5 ...
 
 ### Strings
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+مجموعة مكونة من حرف واحد أو أكثر بين علامتي اقتباس مفردتين أو علامتي اقتباس مزدوجتين أو علامتي اقتباس عكسيتين.
 
-**Example:**
+**مثال:**
 
 ```js
 'a'
@@ -490,11 +490,11 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+القيمة المنطقية إما أن تكون صحيحة أو خاطئة. أي مقارنات تعيد قيمة منطقية، إما أن تكون صحيحة أو خاطئة.
 
-A boolean data type is either a true or false value.
+نوع البيانات المنطقي هو إما قيمة صحيحة أو خاطئة.
 
-**Example:**
+**مثال:**
 
 ```js
 true // if the light is on, the value is true
@@ -503,7 +503,7 @@ false // if the light is off, the value is false
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+في JavaScript، إذا لم نعين قيمة لمتغير، فإن القيمة تكون غير محددة. بالإضافة إلى ذلك، إذا لم ترجع الدالة أي شيء، فإنها ترجع قيمة غير محددة.
 
 ```js
 let firstName
@@ -512,7 +512,7 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null في JavaScript تعني قيمة فارغة.
 
 ```js
 let emptyValue = null
@@ -520,7 +520,7 @@ let emptyValue = null
 
 ## Checking Data Types
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+للتحقق من نوع بيانات متغير معين، نستخدم عامل **typeof**. انظر المثال التالي.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -532,11 +532,11 @@ console.log(typeof undefined) // undefined
 
 ## Comments Again
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+تذكر أن التعليق في JavaScript يشبه لغات البرمجة الأخرى. التعليقات مهمة لجعل الكود الخاص بك أكثر قابلية للقراءة.
+هناك طريقتان للتعليق:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _التعليق على سطر واحد_
+- _التعليق متعدد السطور_
 
 ```js
 // commenting the code itself with a single comment
@@ -557,18 +557,18 @@ Multiline commenting:
 
 ## Variables
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+المتغيرات عبارة عن حاويات للبيانات. تُستخدم المتغيرات لتخزين البيانات في موقع ذاكرة. عند إعلان متغير، يتم حجز موقع ذاكرة. عند تعيين متغير لقيمة (بيانات)، سيتم ملء مساحة الذاكرة بهذه البيانات. لإعلان متغير، نستخدم الكلمات الأساسية _var_ أو _let_ أو _const_.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+بالنسبة للمتغير الذي يتغير في وقت مختلف، نستخدم _let_. إذا لم تتغير البيانات على الإطلاق، نستخدم _const_. على سبيل المثال، لا يتغير PI واسم الدولة والجاذبية، ويمكننا استخدام _const_. لن نستخدم var في هذا التحدي ولا أوصيك باستخدامه. إنها طريقة معرضة للخطأ لإعلان المتغيرات ولديها الكثير من التسريبات. سنتحدث أكثر عن var وlet وconst بالتفصيل في أقسام أخرى (النطاق). في الوقت الحالي، الشرح أعلاه كافٍ.
 
-A valid JavaScript variable name must follow the following rules:
+يجب أن يتبع اسم متغير JavaScript الصحيح القواعد التالية:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- لا ينبغي أن يبدأ اسم متغير JavaScript برقم.
+- لا يسمح اسم متغير JavaScript بالأحرف الخاصة باستثناء علامة الدولار والشرطة السفلية.
+- يتبع اسم متغير JavaScript قاعدة camelCase.
+- لا ينبغي أن يحتوي اسم متغير JavaScript على مسافات بين الكلمات.
 
-The following are examples of valid JavaScript variables.
+فيما يلي أمثلة على متغيرات JavaScript الصالحة.
 
 ```js
 firstName
