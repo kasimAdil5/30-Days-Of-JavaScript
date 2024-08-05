@@ -10,10 +10,10 @@
   <h3>kasim adil</h3>
 <br>
   <a class="header-badge" target="_blank" href="https://github.com/kasimAdil5">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=github&style=social">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=github&logo=github&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/kasim-alanbari-961b231b0/">
+  <img alt="Twitter Follow" src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 <br>
   <sub>مؤلف:
