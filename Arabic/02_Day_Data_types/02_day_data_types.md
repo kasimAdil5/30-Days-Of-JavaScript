@@ -7,8 +7,7 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
   <br><br>
-  <h3>kasim adil</h3>
-<br>
+  <h4>kasim adil</h4>
   <a class="header-badge" target="_blank" href="https://github.com/kasimAdil5">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=github&logo=github&style=social">
   </a>
