@@ -41,7 +41,12 @@
 لغتي العربية ليست جيدة جدًا، لذا أطلب من أولئك الذين يجيدون اللغة الإنجليزية أو الذين يرون أخطاء إملائية أو أخطاء في الترجمة أن يحذروني وفي هذه الأثناء، يمكنك المساهمة في الترجمة في هذا الكود.
 إذا كنت تعرف كيفية استخدام github، يمكنك تنزيل ملفات هذا المشروع ورفعها على الموقع بعد إجراء التغييرات.
  حتى تتمكن من المساهمة في الرموز والترجمة في ملفي.</h3>
-<br><br><br><br>
+<br>
+<div>
+<a href="https://github.com/kasimAdil5">github</a>
+<a href="https://www.linkedin.com/in/kasim-alanbari-961b231b0/">linkedin</a>
+</div>
+<br><br><br>
 <div>
 <small>ادعم <strong>مؤلف</strong> لإنشاء المزيد من المواد التعليمية</small> <br /><br>  
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
