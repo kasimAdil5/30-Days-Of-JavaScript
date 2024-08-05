@@ -917,7 +917,7 @@ console.log(numInt) // 9
 14. ما هو رمز حرف J في سلسلة "30 يومًا من JavaScript" باستخدام __charCodeAt()__
 15. استخدم __indexOf__ لتحديد موضع أول ظهور لـ __a__ في 30 يومًا من JavaScript
 16. استخدم __lastIndexOf__ لتحديد موضع آخر ظهور لـ __a__ في 30 يومًا من JavaScript.
-17. استخدم __indexOf__ للعثور على موضع الظهور الأول لكلمة __because__ في الجملة التالية:__'لا يمكنك إنهاء الجملة بـ because because because is a عطف'__
+17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
