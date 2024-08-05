@@ -66,7 +66,7 @@
 
 يمثل نوع البيانات المنطقي أحد القيمتين: true أو false. القيمة المنطقية إما أن تكون true أو false. سيكون استخدام هذه الأنواع من البيانات واضحًا عند بدء تشغيل عامل المقارنة. تعيد أي مقارنات قيمة منطقية إما أن تكون true أو false.
 
-**Example: Boolean Values**
+**مثال: Boolean Values**
 
 ```js
 let isLightOn = true
@@ -77,7 +77,7 @@ let truValue = 4 > 3    // true
 let falseValue = 4 < 3  // false
 ```
 
-We agreed that boolean values are either true or false.
+لقد اتفقنا على أن القيم المنطقية إما أن تكون صحيحة أو خاطئة.
 
 ### Truthy values
 
@@ -95,11 +95,11 @@ We agreed that boolean values are either true or false.
 - the boolean false
 - '', "", ``, empty string
 
-It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
+من الجيد أن نتذكر تلك القيم الحقيقية والقيم الزائفة. في القسم اللاحق، سوف نستخدمها مع الشروط لاتخاذ القرارات.
 
 ## Undefined
 
-If we declare a variable and if we do not assign a value, the value will be undefined. In addition to this, if a function is not returning the value, it will be undefined.
+إذا أعلنا عن متغير ولم نعين له قيمة، فستكون القيمة غير محددة. بالإضافة إلى ذلك، إذا لم تقم الدالة بإرجاع القيمة، فستكون غير محددة.
 
 ```js
 let firstName
@@ -117,7 +117,7 @@ console.log(empty) // -> null , means no value
 
 ### Assignment operators
 
-An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
+علامة المساواة في JavaScript هي عامل تعيين. يتم استخدامها لتعيين متغير.
 
 ```js
 let firstName = 'Asabeneh'
