@@ -43,7 +43,7 @@
  حتى تتمكن من المساهمة في الرموز والترجمة في ملفي.</h3>
 <br>
 <div>
-<a href="https://github.com/kasimAdil5">github</a>
+<a href="https://github.com/kasimAdil5">github</a> &nbsp;
 <a href="https://www.linkedin.com/in/kasim-alanbari-961b231b0/">linkedin</a>
 </div>
 <br><br><br>
