@@ -791,12 +791,12 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 
 ### Checking Data Types
 
-To check the data type of a certain variable we use the _typeof_ method.
+للتحقق من نوع بيانات متغير معين نستخدم طريقة _typeof_.
 
-**Example:**
+**مثال:**
 
 ```js
-// Different javascript data types
+// أنواع بيانات جافا سكريبت المختلفة
 // Let's declare different data types
 
 let firstName = 'Asabeneh'      // string
@@ -804,7 +804,7 @@ let lastName = 'Yetayeh'        // string
 let country = 'Finland'         // string
 let city = 'Helsinki'           // string
 let age = 250                   // number, it is not my real age, do not worry about it
-let job                         // undefined, because a value was not assigned
+let job                         // undefined, لأنه لم يتم تعيين قيمة
 
 console.log(typeof 'Asabeneh')  // string
 console.log(typeof firstName)   // string
@@ -820,13 +820,13 @@ console.log(typeof null)        // object
 
 ### Changing Data Type (Casting)
 
-- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
-  When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
+- Casting: تحويل نوع بيانات واحد إلى نوع بيانات آخر. نحن نستخدم _ parseInt()_، _ parseFloat()_، _ Number()_، _+ sign، _str()_
+  عندما نقوم بعمليات حسابية يجب تحويل سلسلة الأرقام أولاً إلى عدد صحيح أو عدد عشري وإلا فسوف يتم إرجاع خطأ.
 
 #### String to Int
 
-We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
-We can convert string to number using the following methods:
+يمكننا تحويل رقم السلسلة إلى رقم. أي رقم داخل علامة الاقتباس هو رقم سلسلة. مثال على رقم السلسلة: '10'، '5'، إلخ.
+يمكننا تحويل السلسلة إلى رقم باستخدام الطرق التالية:
 
 - parseInt()
 - Number()
@@ -854,8 +854,8 @@ console.log(numInt) // 10
 
 #### String to Float
 
-We can convert string float number to a float number. Any float number inside a quote is a string float number. An example of a string float number: '9.81', '3.14', '1.44', etc.
-We can convert string float to number using the following methods:
+يمكننا تحويل رقم عائم من سلسلة أحرف إلى رقم عائم. أي رقم عائم داخل علامة اقتباس هو رقم عائم من سلسلة أحرف. مثال على رقم عائم من سلسلة أحرف: '9.81'، '3.14'، '1.44'، إلخ.
+يمكننا تحويل رقم عائم من سلسلة أحرف إلى رقم باستخدام الطرق التالية:
 
 - parseFloat()
 - Number()
@@ -884,8 +884,7 @@ console.log(numFloat) // 9.81
 
 #### Float to Int
 
-We can convert float numbers to integers.
-We use the following method to convert float to int:
+يمكننا تحويل الأعداد العائمة إلى أعداد صحيحة. نستخدم الطريقة التالية لتحويل الأعداد العائمة إلى أعداد صحيحة:
 
 - parseInt()
   
@@ -896,29 +895,29 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.  
+🌕  أنت رائع. لقد أكملت للتو تحديات اليوم الثاني وأصبحت على بعد خطوتين من تحقيق العظمة. الآن قم ببعض التمارين لعقلك وعضلاتك.  
 
-## 💻 Day 2: Exercises
+## 💻 Day 2: تمارين
 
-### Exercise: Level 1
+### Exercise: المستوى 1
 
-1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
-2. Print the string on the browser console using __console.log()__
-3. Print the __length__ of the string on the browser console using _console.log()_
-4. Change all the string characters to capital letters using __toUpperCase()__ method
-5. Change all the string characters to lowercase letters using __toLowerCase()__ method
-6. Cut (slice) out the first word of the string using __substr()__ or __substring()__ method
+1. أعلن عن متغير يسمى challenge وقم بتعيينه إلى قيمة أولية **'30 Days Of JavaScript'**.
+2. اطبع السلسلة على وحدة التحكم في المتصفح باستخدام __console.log()__
+3. اطبع طول السلسلة على وحدة تحكم المتصفح باستخدام _console.log()_
+4. قم بتغيير جميع أحرف السلسلة إلى أحرف كبيرة باستخدام طريقة __toUpperCase()__
+5. قم بتغيير جميع أحرف السلسلة إلى أحرف صغيرة باستخدام طريقة __toLowerCase()__
+6. قص (تقطيع) الكلمة الأولى من السلسلة باستخدام طريقة __substr()__ أو __substring()__
 7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
-8. Check if the string contains a word __Script__ using __includes()__ method
-9. Split the __string__ into an __array__ using __split()__ method
-10. Split the string 30 Days Of JavaScript at the space using __split()__ method
-11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' __split__ the string at the comma and change it to an array.
-12. Change 30 Days Of JavaScript to 30 Days Of Python using __replace()__ method.
-13. What is character at index 15 in '30 Days Of JavaScript' string? Use __charAt()__ method.
-14. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__
-15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript
-16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
-17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+8. التحقق مما إذا كانت السلسلة تحتوي على كلمة __Script__ باستخدام طريقة __includes()__
+9. تقسيم __string__ إلى __array__ باستخدام طريقة __split()__
+10. تقسيم السلسلة 30 Days Of JavaScript في المساحة باستخدام طريقة __split()__
+11. 'Facebook، Google، Microsoft، Apple، IBM، Oracle، Amazon' __تقسيم__ السلسلة عند الفاصلة وتغييرها إلى مصفوفة.
+12. قم بتغيير 30 يومًا من JavaScript إلى 30 يومًا من Python باستخدام طريقة __replace()__ .
+13. ما هو الحرف الموجود في الفهرس 15 في سلسلة "30 يومًا من JavaScript"؟ استخدم طريقة __charAt()__.
+14. ما هو رمز حرف J في سلسلة "30 يومًا من JavaScript" باستخدام __charCodeAt()__
+15. استخدم __indexOf__ لتحديد موضع أول ظهور لـ __a__ في 30 يومًا من JavaScript
+16. استخدم __lastIndexOf__ لتحديد موضع آخر ظهور لـ __a__ في 30 يومًا من JavaScript.
+17. استخدم __indexOf__ للعثور على موضع الظهور الأول لكلمة __because__ في الجملة التالية:__'لا يمكنك إنهاء الجملة بـ because because because is a عطف'__
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
