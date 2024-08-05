@@ -918,18 +918,18 @@ console.log(numInt) // 9
 15. استخدم __indexOf__ لتحديد موضع أول ظهور لـ __a__ في 30 يومًا من JavaScript
 16. استخدم __lastIndexOf__ لتحديد موضع آخر ظهور لـ __a__ في 30 يومًا من JavaScript.
 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
-21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true
-22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true
-23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript
-24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
+18.استخدم __lastIndexOf__ للعثور على موضع آخر ظهور للكلمة __because__ في الجملة التالية:__'You cannot end a sentence with because because because is a conjunction'__
+19. استخدم __search__ للعثور على موضع الظهور الأول للكلمة __because__ في الجملة التالية:__'You cannot end a sentence with because because because is a conjunction'__
+20. استخدم __trim()__ لإزالة أي مسافة بيضاء زائدة في بداية ونهاية السلسلة. على سبيل المثال '30 Days Of JavaScript'.
+21. استخدم طريقة __startsWith()__ مع السلسلة *30 Days Of JavaScript* واجعل النتيجة صحيحة
+22. استخدم طريقة __endsWith()__ مع السلسلة *30 Days Of JavaScript* واجعل النتيجة صحيحة
+23. استخدم طريقة __match()__ للعثور على جميع __a__ في 30 يومًا من JavaScript
+24. استخدم __concat()__ ودمج '30 Days of' و'JavaScript' في سلسلة واحدة، '30 Days Of JavaScript'
+25. استخدم طريقة __repeat()__ لطباعة 30 يومًا من JavaScript مرتين
 
-### Exercise: Level 2
+### Exercise: المستوى 2
 
-1. Using console.log() print out the following statement:
+1. باستخدام console.log() قم بطباعة العبارة التالية:
 
     ```sh
     The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
@@ -941,15 +941,15 @@ console.log(numInt) // 9
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
-3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
-5. Check if 'on' is found in both python and jargon
-6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
-7. Generate a random number between 0 and 100 inclusively.
-8. Generate a random number between 50 and 100 inclusively.
-9. Generate a random number between 0 and 255 inclusively.
-10. Access the 'JavaScript' string characters using a random number.
-11. Use console.log() and escape characters to print the following pattern.
+3. تحقق مما إذا كان typeof '10' يساوي 10 تمامًا. إذا لم يكن كذلك، فاجعله متساويًا تمامًا.
+4. تحقق مما إذا كان parseFloat('9.8') يساوي 10، وإذا لم يكن كذلك، فاجعله مساويًا تمامًا لـ 10.
+5. تحقق مما إذا كان "on" موجودًا في كل من Python و Jargon
+6.آمل ألا تكون هذه الدورة مليئة بالمصطلحات المتخصصة. تحقق مما إذا كانت المصطلحات المتخصصة موجودة في الجملة.
+7. إنشاء رقم عشوائي بين 0 و 100 بشكل شامل.
+8. إنشاء رقم عشوائي بين 50 و 100 بشكل شامل.
+9. إنشاء رقم عشوائي بين 0 و 255 بشكل شامل.
+10. قم بالوصول إلى أحرف السلسلة 'JavaScript' باستخدام رقم عشوائي.
+11. استخدم console.log() وأحرف الإفلات لطباعة النمط التالي.
 
     ```js
     1 1 1 1 1
@@ -959,20 +959,20 @@ console.log(numInt) // 9
     5 1 5 25 125
     ```
 
-12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+12.  استخدم __substr__ لتقسيم العبارة ___ لأن لأن لأن ___ من الجملة التالية:__'You cannot end a sentence with because because because is a conjunction'__
 
-### Exercises: Level 3
+### Exercises: مستوى 3
 
-1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
-2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
-3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+1. "الحب هو أفضل شيء في هذا العالم. البعض وجد حبه والبعض الآخر لا يزال يبحث عنه." احسب عدد الكلمات __love__ في هذه الجملة.
+2. استخدم __match()__ لحساب عدد كل __because__ في الجملة التالية:__'You cannot end a sentence with because because because is a conjunction'__
+3. قم بتنظيف النص التالي والعثور على الكلمة الأكثر تكرارًا (تلميح، استخدم الاستبدال والتعابير العادية).
 
     ```js
         const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     ```
 
-4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+4. احسب إجمالي الدخل السنوي للشخص من خلال استخراج الأرقام من النص التالي. "يكسب 5000 يورو من الراتب شهريًا، و10000 يورو مكافأة سنوية، و15000 يورو من الدورات التدريبية عبر الإنترنت شهريًا."
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 تهانيا ! 🎉
 
-[<< Day 1](../readMe.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< اليوم 1](../readMe.md) | [اليوم 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
