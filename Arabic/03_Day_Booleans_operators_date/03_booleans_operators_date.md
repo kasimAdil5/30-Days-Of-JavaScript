@@ -16,9 +16,9 @@
   </a>
   <br><br>
 
-  <sub>Author:
+  <sub>مؤلف:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
+  <small> يناير 2020</small>
   </sub>
 </div>
 
@@ -60,11 +60,11 @@
 		- [Exercises: Level 2](#exercises-level-2)
 		- [Exercises: Level 3](#exercises-level-3)
 
-# 📔 Day 3
+# 📔 اليوم 3
 
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
+يمثل نوع البيانات المنطقي أحد القيمتين: true أو false. القيمة المنطقية إما أن تكون true أو false. سيكون استخدام هذه الأنواع من البيانات واضحًا عند بدء تشغيل عامل المقارنة. تعيد أي مقارنات قيمة منطقية إما أن تكون true أو false.
 
 **Example: Boolean Values**
 
