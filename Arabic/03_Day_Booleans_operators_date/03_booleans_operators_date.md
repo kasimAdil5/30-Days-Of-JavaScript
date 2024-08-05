@@ -22,11 +22,11 @@
   </sub>
 </div>
 
-[<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< يوم 2](../02_Day_Data_types/02_day_data_types.md) | [يوم 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
-- [📔 Day 3](#-day-3)
+- [📔 اليوم 3](#-day-3)
 	- [Booleans](#booleans)
 		- [Truthy values](#truthy-values)
 		- [Falsy values](#falsy-values)
