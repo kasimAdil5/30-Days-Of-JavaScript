@@ -137,7 +137,7 @@ Assignment Operators
 - الضرب(*): a * b
 - التقسيم(/): a / b
 - المعامل(%): a % b
-- Exponential(**): a ** b
+- الأسية(**): a ** b
 
 ```js
 let numOne = 4
@@ -186,7 +186,7 @@ console.log(
 
 ### Comparison Operators
 
-In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
+في البرمجة نقارن بين القيم، نستخدم عوامل المقارنة لمقارنة قيمتين. نتحقق مما إذا كانت القيمة أكبر أو أقل أو مساوية للقيمة الأخرى.
 
 ![Comparison Operators](../images/comparison_operators.png)
 **Example: Comparison Operators**
@@ -226,14 +226,14 @@ console.log('tomato'.length == 'potato'.length)  // true
 console.log('python'.length > 'dragon'.length)   // false
 ```
 
-Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+حاول فهم المقارنات المذكورة أعلاه ببعض المنطق. التذكر بدون أي منطق قد يكون صعباً.
+جافا سكريبت هي نوع من لغات البرمجة السلكية بطريقة ما. يتم تشغيل كود JavaScript ويعطيك نتيجة ولكن ما لم تكن جيدًا في ذلك قد لا تكون النتيجة المرجوة.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+كقاعدة عامة، إذا لم تكن القيمة صحيحة مع == == فلن تكون مساوية مع ===. استخدام === أكثر أمانًا من استخدام ==. يحتوي التالي [link](https://dorey.github.io/JavaScript-Equality-Table) على قائمة شاملة لمقارنة أنواع البيانات.
 
 ### Logical Operators
 
-The following symbols are the common logical operators:
+الرموز التالية هي العوامل المنطقية الشائعة:
 &&(ampersand) , ||(pipe) and !(negation).
 The && operator gets true only if the two operands are true.
 The || operator gets true either of the operand is true.
@@ -263,9 +263,9 @@ let isMarried = !false                // true
 
 ### Increment Operator
 
-In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
+في جافا سكريبت نستخدم عامل الزيادة لزيادة القيمة المخزنة في متغير. يمكن أن تكون الزيادة قبل أو بعد الزيادة. دعونا نرى كل واحد منهم:
 
-1. Pre-increment
+1. الزيادة المسبقة
 
 ```js
 let count = 0
@@ -273,7 +273,7 @@ console.log(++count)        // 1
 console.log(count)          // 1
 ```
 
-1. Post-increment
+1. الزيادة اللاحقة
 
 ```js
 let count = 0
@@ -281,7 +281,7 @@ console.log(count++)        // 0
 console.log(count)          // 1
 ```
 
-We use most of the time post-increment. At least you should remember how to use post-increment operator.
+نحن نستخدم معظم الوقت ما بعد الزيادة. على الأقل يجب أن تتذكر كيفية استخدام عامل ما بعد الزيادة.
 
 ### Decrement Operator
 
@@ -639,4 +639,4 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-[<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< اليوم 2](../02_Day_Data_types/02_day_data_types.md) | [اليوم 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
