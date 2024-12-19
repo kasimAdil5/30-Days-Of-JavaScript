@@ -130,13 +130,13 @@ Assignment Operators
 
 ### Arithmetic Operators
 
-Arithmetic operators are mathematical operators.
+العوامل الحسابية هي عوامل رياضية.
 
-- Addition(+): a + b
-- Subtraction(-): a - b
-- Multiplication(*): a * b
-- Division(/): a / b
-- Modulus(%): a % b
+- الجمع(+): a + b
+- الطرح(-): a - b
+- الضرب(*): a * b
+- التقسيم(/): a / b
+- المعامل(%): a % b
 - Exponential(**): a ** b
 
 ```js
